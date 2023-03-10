@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@200;700&family=Seaweed+Script&display=swap');
+
+body{
+    background-color: rgb(163, 188, 238);
+    background-image: url("./assets/imgcolor.jpg");
+    background-size:contain;
+    
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+h1{
+    background-color: tomato;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+a{
+    background-color: aquamarine;
+}
+
+.text-content{
+    font-size: xx-large;
+}
+
+.font-grosso{
+    font-size: xx-large;
+}
+
+.font-normale{
+    font-weight: 400;
+}
+
+#titolo-principale{
+    color: gold
+}
+h4,h5 {
+    color: green
+}
+
+.titolone{
+    width: 50%;
+    height: 50%;
+
+}
+/* 
+{
+    background-color: yellow;
+    max-width: 30%;
+} */
+
+.mamma{
+    background-color: lime;
+    width: 600px;
+    height: 100px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,34,34,1) 21%, rgba(117,113,191,1) 36%, rgba(255,88,197,1) 53%, rgba(117,254,136,1) 67%, rgba(253,187,45,1) 100%); 
+}
+
+.figlia{
+    width: 50% ;
+    min-width: 100px;
+    height: 50px;
+    overflow: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(123,61,104,1) 15%, rgba(223,143,238,1) 35%, rgba(161,242,208,1) 52%, rgba(165,233,74,1) 78%, rgba(0,212,255,1) 100%); 
+
+}
+
+.primo{
+    background-color: aqua;
+    padding: 18px;  /* interno */
+}
+
+.secondo{
+    background-color: blueviolet;
+    margin: 20px 60px ; /* esterno */
+}
+
+.terzo{
+    /* border-style:solid;
+    border-color: darkmagenta; */
+    height: 700px;
+    width: 1000px;
+    border:solid 3px maroon;
+    border-radius: 50px 300px 100px 500px;
+    background-image: url("./assets/ranavetro.jpg");
+    background-size:contain ;
+}
+
+.quarto{
+background-color: darkkhaki;
+display: inline-block;
+width: max-content;
+height: 300px;
+}
+
+.quinto{
+    background-color: gray;
+    display: inline-block;
+    width:max-content;
+    height: 300px 
+}
+
+/*----------------------- FONT -------------------------- */
